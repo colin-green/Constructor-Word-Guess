@@ -13,7 +13,7 @@ class Word {
 
     }
 
-    returnWord() {
+    displayWord() {
 
         var returnString = '';
         for (let i = 0; i < this.letters.length; i++) {

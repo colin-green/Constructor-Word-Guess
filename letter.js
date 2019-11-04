@@ -23,6 +23,8 @@ class Letter {
 
     checkChar(guess) {
 
+        var correctGuess = false;
+
         if (guess == this.val) {
             
             this.guessedYet = true;
